@@ -34,10 +34,11 @@ class GreedySolver():
 
 if __name__ == "__main__":
     solver = GreedySolver()
-    solver.sort_frac()
-    frac_total = solver.addTime()
-    print("Ratio: ",frac_total)
 
     solver.sort_diff()
     diff_total = solver.addTime()
     print("Diff: ", diff_total)
+
+    solver.sort_frac()
+    frac_total = solver.addTime()
+    print("Ratio: ",frac_total)
